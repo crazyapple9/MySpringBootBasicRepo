@@ -16,6 +16,12 @@ public class springcontroller {
 		return "Hello Folks! You are in the main home page from myspringbootcontroller package";
 	}
 	
+	@RequestMapping("/home")
+	public String handleHomepageReq()
+	{
+		return "You are in Home Page";
+	}
+	
 	@GetMapping("/index")
 	public String index_page_handler()
 	{
