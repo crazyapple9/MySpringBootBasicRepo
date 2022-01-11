@@ -32,8 +32,10 @@ public class springcontroller {
 	public UserInfo getuserdetails()
 	{
 		System.out.println("from myspringbootcontroller package\n\n");
-		return new UserInfo("Harry","Potter", 0001);
+		return new UserInfo("Dwight","Schrute", 0001);
 	}
+	
+	
 	
 
 }
